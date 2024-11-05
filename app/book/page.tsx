@@ -36,26 +36,20 @@ const STYLISTS = [
   { 
     id: "christine", 
     name: "Christine (Owner)", 
-    specialties: ["womens-cut", "color-full", "highlights", "keratin", "brazilian"],
+    specialties: ["womens-cut", "color-full", "highlights", "keratin", "brazilian", "womens-cut", "color-full", "color-touchup", "highlights"],
     availability: ["monday", "tuesday", "wednesday", "thursday"]
   },
   { 
-    id: "sarah", 
-    name: "Sarah", 
+    id: "kim", 
+    name: "Kim", 
     specialties: ["womens-cut", "mens-cut", "mens-fade", "perm"],
     availability: ["wednesday", "thursday", "friday", "saturday"]
   },
   { 
-    id: "michael", 
-    name: "Michael", 
+    id: "melissa", 
+    name: "Melissa", 
     specialties: ["mens-cut", "mens-fade", "japanese-straight", "keratin"],
     availability: ["monday", "tuesday", "friday", "saturday"]
-  },
-  { 
-    id: "jessica", 
-    name: "Jessica", 
-    specialties: ["womens-cut", "color-full", "color-touchup", "highlights"],
-    availability: ["thursday", "friday", "saturday", "sunday"]
   }
 ];
 

@@ -28,7 +28,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[600px]">
         <Image
-          src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80"
+          src="/images/c-hero.jpg"
           alt="Salon interior"
           fill
           className="object-cover"

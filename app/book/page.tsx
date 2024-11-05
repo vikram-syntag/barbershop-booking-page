@@ -171,7 +171,7 @@ export default function BookingPage() {
 
   useEffect(() => {
     const allSelected = date && time && service && stylist;
-    setShowForm(allSelected);
+    setShowForm(!!allSelected);
   }, [date, time, service, stylist]);
 
   return (
